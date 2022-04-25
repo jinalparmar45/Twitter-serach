@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #1591fe;
+  /*height: 150px;*/
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.search-input {
+  place-content: baseline;
+    background: #2784d5;
+    border-bottom-color: white;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    color: white;
+    border-radius: 8px;
+    padding: 5px;
+}
+.search-button {
+  background: border-box;
+    color: white;
+    border: none
+}
+::placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
+}
